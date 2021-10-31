@@ -1664,6 +1664,9 @@ a {
   .footer .section.location {
     align-items: flex-start;
   }
+  .footer .section.photos {
+    text-align: center;
+  }
 }
 /* End Footer */
 /* Start Credit */
