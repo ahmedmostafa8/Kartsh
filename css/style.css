@@ -1119,17 +1119,28 @@ a {
 }
 @media (max-width:768px) {
   .events .subscribe {
-    width: 470px;
+    width: 345px;
     border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px 15px;
   }
   .events .subscribe input[type=text] {
-    width:270px;
+    width:215px;
     border-radius:20px;
   }
   .events .subscribe input[type=submit] {
-    border-radius:20x;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 20px;
   }
 }
+@media (max-width:768px) {
+  .events .event-right .event-time .box {
+    width: 75px;
+    margin-right: 10px;
+  }
+}
+
 /* End Events */
 /* Start Pricing */
 .pricing {
