@@ -1384,7 +1384,7 @@ a {
   background: rgb(255 255 255 / 95%);
 }
 .stats h2 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 60px;
   position: relative;
@@ -1495,7 +1495,7 @@ a {
   z-index: 1;
 }
 .discount .have-discount .discount-content h2 {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 .discount .have-discount .discount-content p {
@@ -1506,6 +1506,11 @@ a {
   color: #7a7a7a;
   color: white;
   line-height: 1.8;
+}
+@media (max-width: 767px) {
+  .discount .have-discount .discount-content p {
+    font-size: 14px;
+  }
 }
 .discount .have-discount .discount-content img {
   width: 300px;
