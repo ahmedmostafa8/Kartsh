@@ -1357,7 +1357,7 @@ a {
 .stats {
   padding-top:var(--padding-top);
   padding-bottom: var(--padding-bottom);
-  background-image: url(/imgs/stats.jpg);
+  background-image: url(../imgs/stats.jpg);
   background-size: cover;
   position: relative;
 }
@@ -1461,16 +1461,16 @@ a {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(/imgs/discount-background1.jpg);
+  background: url(../imgs/discount-background1.jpg);
   z-index: -1;
   animation: change-background 5s infinite alternate;
 }
 @keyframes change-background {
   0%,50% {
-    background: url(/imgs/discount-background1.jpg);
+    background: url(../imgs/discount-background1.jpg);
   }
   100% {
-    background: url(/imgs/discount-background2.jpg);
+    background: url(../imgs/discount-background2.jpg);
   }
 }
 .discount .have-discount .discount-content {
