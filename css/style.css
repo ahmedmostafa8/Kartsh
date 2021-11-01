@@ -278,6 +278,7 @@ a {
   position: absolute;
   left: 50%;
   bottom: 50px;
+  transform: translateX(-50%);
   font-size: 18px;
   transition: var(--main-transition);
   color: var(--main-color);
