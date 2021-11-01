@@ -54,7 +54,7 @@ a {
 /* Main Title  */
 .main-title {
   text-transform: uppercase;
-  border: 2px solid black;
+  border: 2px solid var(--main-color);
   width: fit-content;
   margin: 0 auto 80px;
   font-size: 25px;
@@ -170,7 +170,7 @@ a {
   position: relative;
 }
 .header .logo {
-  font-size: 25px;
+  font-size: 30px;
   color: var(--main-color);
   font-weight: 600;
   height: 72px;
@@ -258,6 +258,7 @@ a {
   max-width: 500px;
   font-size: 20px;
   color: #777;
+  margin-top: 10px;
 }
 .landing img {
   position: relative;
@@ -425,6 +426,7 @@ a {
 }
 .articles .box .content h2 {
   font-size: 23px;
+  font-weight: 500;
 }
 .articles .box .content p {
   font-size: 17px;
@@ -960,7 +962,7 @@ a {
   width: 0px;
   height: 0px;
   transform: translate(-50%, -50%);
-  background: #ededed;
+  background: white;
   border-radius: 10px;
   z-index: -1;
   transition: var(--main-transition);
@@ -1553,16 +1555,24 @@ a {
   padding: 15px;
   width: 100%;
   min-height: 200px;
+  resize: none;
 }
 .discount .request .request-content form input[type="submit"] {
   width: 100%;
   margin-top: 30px;
   border: 0;
   padding: 20px;
-  color: white;
-  background: var(--main-color);
+  color: var(--main-color);
+  background: white;
   font-size: 22px;
   font-weight: 600;
+  border: 1px solid var(--main-color);
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+.discount .request .request-content form input[type="submit"]:hover {
+  background: var(--main-color);
+  color: white;
 }
 
 @media (max-width: 991px) {
@@ -1602,6 +1612,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 .footer .section.my-info a i {
   color: #b9b9b9;
